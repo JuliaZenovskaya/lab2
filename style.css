@@ -11,7 +11,7 @@
 	
 }
 
-@media screen and (max-device-width: 800px){
+@media screen and (max-device-width: 200mm){
 	.look {
 		grid-template-columns: 1fr;
 	}
