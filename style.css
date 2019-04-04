@@ -1,3 +1,18 @@
 @charset "utf-8";
 
+.look {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 1%;
+	text-align: center;
+}
 
+.box {
+	
+}
+
+@media screen and (max-device-width: 800px){
+	.look {
+		grid-template-columns: 1fr;
+	}
+}
